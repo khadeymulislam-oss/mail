@@ -20,8 +20,8 @@ def parse_recipients(value):
 @app.route("/")
 def index():    
     return jsonify({
-            "from": "suma@xactidea.com",
-            "to": "nannu@xactidea.com",
+            "from": "sum@xyz.com",
+            "to": "nanny@zyt.com",
             "cc":"",
             "bcc":"",
             "subject": "Person wants to meet with you!",
