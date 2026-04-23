@@ -6,8 +6,8 @@ from email.message import EmailMessage
 
 app = Flask(__name__)
 cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
-GMAIL_USER = "hris@popularbd.com"
-GMAIL_APP_PASSWORD = "fcwi ruls udqu rzig"
+GMAIL_USER = "xyz@gmail.com"
+GMAIL_APP_PASSWORD = "app_pasword"
 
 def parse_recipients(value):
     if not value:
