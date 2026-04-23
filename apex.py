@@ -8,10 +8,10 @@ from email.message import EmailMessage
 import time
 
 
-API_ENDPOINT = "http://192.168.199.121:5000/sendmail"
-DB_USER = "IDEAPOPULAR"
-DB_PASS = "XIPOPULAR#2126#"
-DB_DSN = "192.168.199.121:1521/ORCLPDB"
+API_ENDPOINT = "http://localhost:5000/sendmail"
+DB_USER = "DBUSER"
+DB_PASS = "DBPASSWORD#2126#"
+DB_DSN = "localhost:1521/ORCLPDB"
 
 conn = oracledb.connect(
     user=DB_USER,
