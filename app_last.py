@@ -10,12 +10,12 @@ app = Flask(__name__)
 # cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 cors = CORS(app, resources={r"/styleinfo": {"origins": "*"}, r"/api/*": {"origins": "*"}})
 
-SMTP_USERNAME = 'erp@dreussworldwide.com'
-SMTP_PASSWORD = 'Dr$786Er#P%'
+SMTP_USERNAME = ''
+SMTP_PASSWORD = ''
 
-DB_USER = "IDEADREUSS"
-DB_PASS = "XIdreuss#2124#"
-DB_DSN = "54.251.182.183:1521/ORCLPDB"
+DB_USER = ""
+DB_PASS = ""
+DB_DSN = "10.251.182.183:1521/ORCLPDB"
 
 
 
